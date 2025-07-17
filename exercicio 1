@@ -1,20 +1,19 @@
 #include <stdio.h> 
-//EXERCICIO 1 LISTA DE REVISAO
 
 int main(){
-    float alt; 
+    float altura; 
     printf("Digite a altura: \n");
-    scanf("%f", &alt); 
-    if(alt <= 1.50){
-        printf("O individuo e: muito baixo\n"); 
+    scanf("%f", &altura); 
+    if(altura <= 1.50){
+        printf("A pessoa eh: muito baixa\n"); 
     }else{
         if(alt >1.50 && alt <= 1.60){
-        printf("O individuo e: baixo\n"); 
+        printf("O individuo e: baixa\n"); 
         }else{
-            if(alt > 1.60 && alt <= 1.80){
-                printf("O individuo e: mediano\n"); 
+            if(altura > 1.60 && altura <= 1.80){
+                printf("A pessoa eh: mediana\n"); 
             }else{
-                printf("O individuo e: alto\n"); 
+                printf("A pessoa eh: alta\n"); 
             }
         }
     }
